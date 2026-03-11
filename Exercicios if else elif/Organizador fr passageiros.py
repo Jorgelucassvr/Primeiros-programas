@@ -18,12 +18,16 @@ if atendimento == "sim":
 atendimento = str(input(" comum, prata ou ouro? ")) 
 if atendimento == "ouro":
     print("o passageiro", Nome, "tem direito a atendimento ouro de *Terceiro grupo*")
-if atendimento == "prata":
+
+elif atendimento == "prata":
     print("o passageiro", Nome, "tem direito a atendimento prata de *Quarto grupo*")
-if atendimento == "comum":
+
+else: 
+    atendimento== "comum"
     print("o passageiro", Nome, "tem direito a atendimento comum de *Quinto grupo*")
+
 #1 grupo: prioritário
 #2 grupo: executivo
 #3 grupo: ouro economico   
 #4 grupo: prata economico
-#5 grupo: comum economico e atrasados 
+#5 grupo: comum economico e atrasados
