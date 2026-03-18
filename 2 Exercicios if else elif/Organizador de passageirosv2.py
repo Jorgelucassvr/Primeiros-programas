@@ -15,7 +15,7 @@ elif resposta_prioridade.lower() == ("nao"):
     elif resposta_prioridade.lower() == ("nao"):
         print("Qual seu nivel de prioridade:")
         resposta_prioridade = str(input("Executivo ou Economico? " )) 
-
+        
         if resposta_prioridade.lower() == ("executivo"):
          print("Voce tem prioridade 2!")
         elif resposta_prioridade.lower()==("economico"):
