@@ -1,23 +1,8 @@
 
+palavra = input("Digite uma palavra: ")
+invertida = ""
 
+for i in range(len(palavra) - 1, -1, -1):
+    invertida += palavra[i]
 
-
-
-
-
-
-numero = int(input("Digite um número: "))
-
-if numero <= 1:
-    print("Não é primo")
-else:
-    primo = True
-
-    for i in range(2, numero):
-        if numero % i == 0:
-            primo = False
-
-    if primo:
-        print("É primo")
-    else:
-        print("Não é primo")
+print(invertida)
