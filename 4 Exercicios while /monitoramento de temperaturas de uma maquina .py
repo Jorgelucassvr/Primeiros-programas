@@ -8,7 +8,7 @@ fim = 1
 while fim >= 0:
     temperatura_atual = int(input("informe a temperatura atual: "))
     if temperatura_atual > 0:
-     quantas_temperaturas = quantas_temperaturas + 1
+     quantas_temperaturas += quantas_temperaturas
     if temperatura_atual > 80:
      quantas_acima_de_80 = quantas_acima_de_80 + 1
     if temperatura_atual == -1:
