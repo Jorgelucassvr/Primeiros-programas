@@ -1,0 +1,2 @@
+O aluno com matricula: 1050 Nome: jorge Com media: 60.00 Situacao: Podera fazer exame especial
+O aluno com matricula: 1052 Nome: lucas Com media: 11.67 Situacao: Reprovado

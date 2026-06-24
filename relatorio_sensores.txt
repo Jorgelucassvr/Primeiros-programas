@@ -1,2 +1,0 @@
-['S01'] quantidade 2; soma 50.5; menor temperatura 24.5; maior_temperatura 26.0; media 25.25
-['S02'] quantidade 2; soma 55.400000000000006; menor temperatura 27.3; maior_temperatura 28.1; media 27.700000000000003
